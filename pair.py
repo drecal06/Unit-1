@@ -43,5 +43,14 @@ song_data = [
         "energy": 0.4,
         "danceability": 0.3,
         "tempo": 90,
-    },
+    }
 ]
+
+
+
+
+def collectData(song_data):
+   for song in song_data:
+        dlist.append(song["duration"])
+      
+
